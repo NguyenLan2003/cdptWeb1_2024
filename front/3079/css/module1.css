@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+.type-module1 .title {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.type-module1 .title h2 {
+  margin-bottom: 10px;
+}
+.type-module1 .title p {
+  color: #555;
+}
+.type-module1 .carousel {
+  position: relative;
+  overflow: hidden;
+}
+.type-module1 .carousel .slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.type-module1 .carousel .slides .slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.type-module1 .carousel .slides .slide .textbox {
+  background: white;
+  font-style: italic;
+  padding: 20px;
+}
+.type-module1 .carousel .slides .slide .hhp {
+  background: #e4dfd9;
+  padding: 20px;
+}
+.type-module1 .carousel .slides .slide .hhp-image {
+  display: flex;
+  margin: 40px;
+}
+.type-module1 .carousel .slides .slide .hhp-image p {
+  color: tomato;
+}
+.type-module1 .carousel .carousel-indicators {
+  text-align: center;
+  margin-top: 40px;
+}
+.type-module1 .carousel .carousel-indicators .indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #bbb;
+  cursor: pointer;
+}
+.type-module1 .carousel .carousel-indicators .active {
+  background: #717171;
+}

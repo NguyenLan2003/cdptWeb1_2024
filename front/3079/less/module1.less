@@ -1,0 +1,85 @@
+
+
+// common
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+// @less->@css
+
+.type-module1 {
+
+  .title {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 90px;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+  } 
+
+  .carousel {
+    position: relative;
+    /* margin: auto; */
+    overflow: hidden;
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease;
+
+      .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+
+        .textbox {
+          background: white;
+          font-style: italic;
+          padding: 20px;
+        }
+
+        .hhp {
+          background: rgb(228, 223, 217);
+          padding: 20px;
+      
+        }
+
+        .hhp-image {
+          display: flex;
+          margin: 40px;
+        }
+
+        .hhp-image p{
+          color: tomato;
+        }
+      }
+    }
+
+    .carousel-indicators {
+      text-align: center;
+      margin-top: 40px;
+
+      .indicator {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+        border-radius: 50%;
+        background: #bbb;
+        cursor: pointer;
+      }
+
+      .active {
+        background: #717171;
+      }
+    }
+  }
+}
